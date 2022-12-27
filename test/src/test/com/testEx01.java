@@ -1,0 +1,16 @@
+package test.com;
+
+public class testEx01 {
+
+	public static void main(String[] args) {
+	
+	
+	
+			
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+
+public class Hello {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");			 // ; 세미콜론 : 콜론
+		
+		/*
+		 *  변수 : 변하는 수,  값을 저장하는 공간
+		 *  
+		 *  변수 형식 : 자료형 변수명;
+		 *  
+		 *   변수 초기화 : 자료형 변수명 = 값;
+		 *   
+		 *   = : 대입연산자
+		 *   
+		 *   자료형 = 성격, 타입, 성질
+		 *   
+		 *   숫자형 ->  byte < short < int, long  <  float, double       *long을 사용할 때 정수 뒤에 l명시하기
+		 *                  1byte  2byte    4byte  8byte     4byte     8byte
+ 		 *   문자형 -> char(2byte)
+		 *  
+		 */
+		
+		int a = 15;
+		int b = 20;
+		
+		int c = a+b;
+		
+		System.out.println(c);
+		
+	}
+
+}
