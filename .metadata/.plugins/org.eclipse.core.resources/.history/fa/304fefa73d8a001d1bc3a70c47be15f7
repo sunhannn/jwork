@@ -1,0 +1,27 @@
+package methodex;
+
+public class Ex01 {
+	public static void hello_func() { //메소드 선언문
+		
+		
+	}
+	
+    public static String hello_fun(String s) { //스트링이라 리턴값이 있어야함
+		return "안녕하세요."+ s;                      //s는 "자바"를 갖고 있음
+		
+	}
+    
+    public static int hello_funb() { //인트라 리턴값이 있어야함
+		return 555;
+		
+	}
+	
+    public static void main(String[] args) { //메소드 선언문 
+    	   String str = hello_fun("자바");                 
+    	   System.out.println(str);                                 
+    	   //자바에서 메인 메소드는 자동실행되는 유일한 메소드
+    	
+    	
+    	
+    }
+}

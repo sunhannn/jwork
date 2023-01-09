@@ -1,0 +1,19 @@
+package com.study;
+
+public class Practice007 {
+
+	public static void main(String[] args) {
+		int t = 0;
+		int n=1;
+		for (int i = 3; i <=100; i++) {
+			if (i==3*n) {
+			t += i;
+			}
+			
+		}
+		
+		System.out.println(t);
+		
+	}
+
+}

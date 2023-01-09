@@ -1,0 +1,14 @@
+package b;
+
+ import a.*;
+ 
+public class Ex {
+
+	public static void main(String[] args) {
+		//Fruit f = new Fruit();
+		//Car c = new Car();
+		Fruit c = new Fruit();
+
+	}
+
+}

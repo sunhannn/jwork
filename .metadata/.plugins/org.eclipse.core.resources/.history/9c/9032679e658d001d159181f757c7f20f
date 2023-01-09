@@ -1,0 +1,27 @@
+package com.inheritance;
+
+public class P {
+	int a = 0;
+	int b = 5;
+	
+	public void md () {
+		a = 5;
+		System.out.println(a+b);
+	}
+	
+}
+
+class C extends P{
+	String a = "오버라이딩";
+	
+	public void md () {
+		System.out.println(a + b);
+		super.md();
+		this.md1();
+	}
+	
+	public void md1 () {
+		System.out.println("md1() 메소드 호출");
+		
+	}
+}

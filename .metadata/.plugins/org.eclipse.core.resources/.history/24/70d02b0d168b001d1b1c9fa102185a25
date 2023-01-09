@@ -1,0 +1,18 @@
+package conex;
+
+class Fruits{
+	  String fname;
+	  int fpirce;
+	  String fspace;
+	  public Fruits(){}
+	  public void Fruits(String fname, int fpirce, String fspace) {
+		  this.fname=fname;
+		  this.fpirce=fpirce;
+		  this.fspace=fspace;
+	  }
+	  
+}
+
+public class FruitEx {
+  
+}

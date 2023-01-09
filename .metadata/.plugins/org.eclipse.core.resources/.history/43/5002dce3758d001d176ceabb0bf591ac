@@ -1,0 +1,17 @@
+package com.inheritance;
+
+public class InhEx5_1 {
+
+	public static void main(String[] args) {
+		CB b2 = new CB();
+	}
+
+}
+
+class PB {
+	int x;
+}
+
+class CB extends PB {
+	String x;
+}

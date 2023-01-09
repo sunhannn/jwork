@@ -1,0 +1,8 @@
+package com.inheritance;
+
+public class InhEx04 {
+public static void main (String[] args
+		) {
+	
+}
+}

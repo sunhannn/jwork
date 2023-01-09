@@ -1,0 +1,19 @@
+package com.inheritance;
+
+public class Super02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class One {
+	
+}
+
+class Two extends One{
+	
+}

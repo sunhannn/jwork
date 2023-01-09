@@ -1,0 +1,18 @@
+package com.study;
+
+public class OneEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class One {
+	
+}
+class Another {
+	
+}

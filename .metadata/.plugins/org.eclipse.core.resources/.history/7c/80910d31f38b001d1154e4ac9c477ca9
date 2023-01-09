@@ -1,0 +1,19 @@
+package getsetex;
+
+import conex.Fruit2;
+
+   class FruitEx {
+
+	public static void main(String[] args) {
+		int total;
+		Fruit2 f = new Fruit2();
+		/*Fruit1 f1 = new Fruit1(30, 30, 30);
+		total = f1.gettotal();
+		//f1.count(); -> count는 private라 호출 안됨 에러남
+		//f1.apple -> apple도 private임
+		System.out.println("객체 f1의 총개수 = " +total);
+		System.out.println("객체 f1의 apple 개수 = " + f1.getApple());
+		System.out.println("객체 f1의 straw 개수 = " + f1.getStraw());
+		System.out.println("객체 f1의 grape 개수 = " + f1.getGrape());*/
+	}
+}

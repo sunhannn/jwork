@@ -1,0 +1,28 @@
+package com.study;
+
+public class Suup01 {
+	/*
+	 * 접근 제어자 (Access Modifier)
+	 * 접근할 수 있는 범위를 제어함
+	 * 							public           protected                 default            private
+	 * 같은 클래스 			O							O								O						O
+	 * 
+	 * 같은 패키지			O							O								O						X
+	 * 
+	 *다른 패키지 상속관계		O					O								X						X
+	 * 
+	 * 프로젝트 내에서		O							O								X						X
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}

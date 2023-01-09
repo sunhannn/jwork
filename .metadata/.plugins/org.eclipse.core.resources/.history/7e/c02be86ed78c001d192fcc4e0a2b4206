@@ -1,0 +1,25 @@
+package com.study;
+
+public class MemoryEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Memory {
+	
+	String str; int num;
+	
+	public Memory () {}
+	public Memory(String str, int num) {
+		this.num = num; this.str = str;
+	}
+	public String returnStr() {
+		return str;
+	}
+	public int returnNum() {
+		return num;
+	}
+}

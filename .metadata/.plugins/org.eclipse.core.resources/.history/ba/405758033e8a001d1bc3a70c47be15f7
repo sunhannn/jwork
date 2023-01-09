@@ -1,0 +1,16 @@
+package methodex;
+
+public class Ex01 {
+   
+	static void sum(int a, int b) { //메소드 선언문, sum메소드
+		int c;
+		c = a + b;
+		System.out.println("a + b = " + c);
+	}
+	
+	public static void main(String[] args) { //메소드 선언문, main 메소드
+		int a = 10, b = 20;
+		sum(a, b);
+		sum(4, 5);
+	}
+}

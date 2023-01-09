@@ -1,0 +1,23 @@
+package com.study;
+
+public class Practice001 {
+/*
+ * 	반복문 for
+ * 	for (초기식; 조건식; 증감식){
+ * 	실행문; [제어어;]}
+ * 
+ */
+	public static void main(String[] args) {
+		
+		for (int i = 0; i <=10; i++) {
+			for (int y = 0; y<=i; y++) {
+				System.out.print("*");
+			}
+		}
+		
+		
+		
+		
+	}
+
+}

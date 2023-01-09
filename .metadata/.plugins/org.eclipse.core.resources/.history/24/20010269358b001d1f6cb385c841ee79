@@ -1,0 +1,34 @@
+package com.study;
+
+public class ThisEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+
+class This {
+	int num = 1; String str = "한글";
+	
+	public void setnum(int num, String str) {
+		this.num = num; this.str = str;
+	}
+	public int getNum() {return num;}
+	public int getNum(int j) {this.num	= num * j; return num;}
+	
+	public void amd () {
+		int num = 5; int str = 7;
+		if (num <= 5) {
+			//int num = 3;
+			System.out.println("this.num 는 "+this.num);
+			// String str = "wow"
+		}
+		System.out.println("num은 "+num);
+		System.out.println("str은 "+str);
+		System.out.println();
+	}
+	
+}
+

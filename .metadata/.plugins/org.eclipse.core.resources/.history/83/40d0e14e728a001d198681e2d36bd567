@@ -1,0 +1,20 @@
+package com.study;
+
+public class Suup11 {
+	/* Heap : 객체(참조변수 = 주소값) 
+	 * 
+	 * stack : 임시저장, 연산식 필요한 연산 순서, 연산자, 값 (항)
+	 * 	
+	 * 생성자 : 객체 생성시 필요
+	 * 				기본 생성자 : 형식 : [접근제어자] 생성자명() {} (생성자명은 이름이 클래스명과 동일)
+	 * 				기타 생성자 : 
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}

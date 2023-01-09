@@ -1,0 +1,17 @@
+package com.study;
+
+public class Suup09 {
+	/* 변수 : 변하는 수, 마지막 값 한 개만 기억하는 공간
+	 * 
+	 * 상수 : 처음 입력하면 절대 값을 변경할 수 없는 것
+	 * 
+	 * final 자료형 상수이름 = 값;
+	 * fina 키워드 (예약어) : ~ 할 수 없는, 금지하는
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

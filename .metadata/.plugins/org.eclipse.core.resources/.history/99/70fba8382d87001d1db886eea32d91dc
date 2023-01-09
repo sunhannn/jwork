@@ -1,0 +1,15 @@
+package com.study;
+
+public class Practice002 {
+
+	public static void main(String[] args) {
+		// 3번 반복하기
+		
+		for (int i = 3; i >=1; i--) {
+			System.out.print(i+" ");
+		}
+		
+		
+	}
+
+}

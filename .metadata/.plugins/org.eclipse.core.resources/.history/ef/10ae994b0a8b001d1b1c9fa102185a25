@@ -1,0 +1,29 @@
+package conex;
+
+public class Point06Ex {
+	public static void main(String[] args) {
+       /*Point06으로 객체 생성문을 작성하여 x,y의 멤버변수 값을 각각 5와 3으로 변경하기
+        *Point06으로 생성한 객체를 통해 showPoin()메소드를 호출하세요*/
+	
+	    Point06 pt06 = new Point06();
+	    pt06.x = 5;
+	    pt06.y = 3; 
+	    Point06 add = new Point06();
+	}
+}
+
+class Point06 {
+	int x;
+	int y;
+	
+	public Point06() {
+		System.out.println("매개 변수가 없는 디폴트 생성자");
+		int a = 5;
+	}
+	public void showPoint() {
+		System.out.println( x + ", " + y);
+		int b = 3;
+	}
+	
+   	
+}

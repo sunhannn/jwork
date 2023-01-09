@@ -1,0 +1,24 @@
+package com.inheritance;
+
+public class Super03 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}
+
+class AA1 {
+	
+}
+
+class AA2 extends AA1{
+	
+}
+class AA3 extends AA2{
+	
+}

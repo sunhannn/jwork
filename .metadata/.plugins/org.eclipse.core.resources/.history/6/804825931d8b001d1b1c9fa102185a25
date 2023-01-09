@@ -1,0 +1,28 @@
+package conex;
+
+public class CarEx {
+	public static void main(String[] args) {
+		Car a = new Car();
+		a.cmd("그랜져", 2022, 10000);
+		System.out.printf("차종 : %s, 연식 : %d, 주행거리 : %s\n", a.getName(),
+				a.getYear(), a.getDistance());
+	}
+}
+
+
+class Car{
+	String cname;
+	int year;
+	int distance;
+	
+	public void cmd(String cname, int year, int distance) {
+		this.cname=cname;
+		this.year=year;
+		this.distance=distance;
+		
+	}
+	
+	 String getName() {return cname;}
+	 int getYear() {return year;}
+	 int getDistance() {return distance;}
+}

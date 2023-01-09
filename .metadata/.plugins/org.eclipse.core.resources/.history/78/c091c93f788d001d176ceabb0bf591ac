@@ -1,0 +1,17 @@
+package com.inheritance;
+
+public class InhEx06 {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class C1 {
+	static int x; static int y;
+}
+
+class C2 extends C1 {
+	static String x;
+}

@@ -1,0 +1,34 @@
+package com.study;
+
+public class SubEx {
+
+	public static void main(String[] args) {
+		Sub s1 = new Sub();
+		s1.setX(10);
+		s1.submd();
+		
+	}
+
+}
+
+class Sub {
+	int x;
+
+	public Sub() {
+	}
+	
+	public void setX(int x) {
+		this.x = x;
+	}
+	
+	public void submd() {
+		// 반복문 출력결과 : x값을 받아서 x값의 숫자만큼 반복되도록 처리
+		//Sub클래스의 submd메소드 호출
+		
+		for (int i = 0; i < x; i++) {
+			System.out.println("Sub클래스의 submd메소드 호출");
+		}
+		
+	}
+
+}

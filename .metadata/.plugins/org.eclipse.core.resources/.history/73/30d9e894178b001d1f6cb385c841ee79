@@ -1,0 +1,13 @@
+package com.study;
+
+public class FruitsEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Fruits {
+
+}

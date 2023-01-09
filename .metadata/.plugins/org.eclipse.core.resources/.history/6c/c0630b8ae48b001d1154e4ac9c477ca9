@@ -1,0 +1,24 @@
+package getsetex;
+
+public class Fruit1 {
+    private int apple;
+    private int straw;
+    private int grape;
+    private int sum;
+	
+    
+    Fruit1(int apple, int straw, int grapes){
+    	this.apple = apple;
+    	this.straw = straw;
+    	this.grape = grapes;
+    	count();
+    }
+    
+    private void count() { //count()라는 메소드를 숨긴다.
+    	sum = apple + straw + grape;	
+    }
+    public int gettotal() {
+    	return sum;
+    }
+    //gette, setter만들기
+}

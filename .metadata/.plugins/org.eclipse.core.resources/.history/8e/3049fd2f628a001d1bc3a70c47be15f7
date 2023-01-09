@@ -1,0 +1,27 @@
+package methodex;
+
+public class Ex07 {
+	static void add(int i1, int i2) {
+		System.out.println("두 수의 합은" + (i1+i2));
+	}
+	static void sub(int i1, int i2) {
+		System.out.println("두 수의 차는" + (i1+i2));
+	}
+	static void mul(int i1, int i2) {
+		System.out.println("두 수의 곱은" + (i1+i2));
+	}
+	static void div1(int i1, int i2) {
+		System.out.println("두 수의 나누기 몫은" + (i1+i2));
+	}
+	static void div2(int i1, int i2) {
+		System.out.println("두 수의 나누기 나머지는" + (i1+i2));
+	}
+
+	public static void main(String[] args){
+		add(5,9);
+		mul(5,9);
+		sub(5,9);
+		div1(5,9);
+		div2(5,9);
+	}
+}

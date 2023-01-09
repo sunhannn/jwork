@@ -1,0 +1,7 @@
+package getsetex;
+
+public class FruitEx {
+
+	public static void main(String[] args) {
+	}
+}

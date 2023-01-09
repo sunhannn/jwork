@@ -1,0 +1,19 @@
+
+public class Practise001 {
+
+	public static void main(String[] args) {
+		String str = "Hello";
+		System.out.println(str);
+		
+		int n = 9;
+		
+		if (n % 2 == 1) {
+			System.out.println("홀 수");
+		}else {
+			System.out.println("짝 수");
+		}
+		
+		
+	}
+
+}

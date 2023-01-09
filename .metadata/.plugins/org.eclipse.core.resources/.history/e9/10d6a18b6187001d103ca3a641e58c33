@@ -1,0 +1,19 @@
+package com.study;
+
+public class Practice007 {
+
+	public static void main(String[] args) {
+		int t = 0;
+		for (int i = 3; i <=100; i++) {
+			if (i == i*3) {
+				t =+ i;
+			}
+			
+		}
+		System.out.println("3의 배수의 합 : "+t);
+		
+		
+		
+	}
+
+}

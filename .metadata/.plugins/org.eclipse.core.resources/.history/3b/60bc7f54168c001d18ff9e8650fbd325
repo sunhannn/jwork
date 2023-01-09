@@ -1,0 +1,16 @@
+package com.pratice;
+
+public class AccountExample {
+
+	public static void main(String[] args) {
+		Account account = new Account();
+		
+		acount
+		
+		
+		
+		
+		
+	}
+
+}

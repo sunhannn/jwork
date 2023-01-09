@@ -1,0 +1,7 @@
+package conex;
+
+class Fruit2 {
+    public Fruit2() {
+    	System.out.println("conex 패키지");
+    }
+}

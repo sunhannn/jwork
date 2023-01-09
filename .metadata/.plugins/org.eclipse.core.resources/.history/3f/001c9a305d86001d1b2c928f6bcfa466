@@ -1,0 +1,50 @@
+
+public class Practise001 {
+
+	public static void main(String[] args) {
+		int score = 65;
+		String grade;
+		
+		if (score >= 90) {
+			grade = "A";
+		
+		} else if (score >= 80) {
+			grade = "B";
+			
+		}else if (score >= 70) {
+			grade = "C";
+			
+		}else if (score >= 60) {
+			grade = "D";
+			
+		}else {
+			grade = "F";
+			
+		}
+		System.out.println("학점은 "+ grade+ "입니다.");
+		
+		int i = 3;
+		if (i <=5) System.out.println("1번");
+		else if ( i <= 4) System.out.println("2번");
+		else if (i <= 3) System.out.println("3번");
+		else if (i <=2 ) System.out.println("4번");
+		else System.out.println("5번");
+		
+		System.out.println("\n========================\n");
+		
+		if (i <= 5) System.out.println("1번");
+		if ( i <= 4) System.out.println("2번");
+		if (i <= 3) System.out.println("3번");
+		if (i <= 2 ) System.out.println("4번");
+		else System.out.println("5번");
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

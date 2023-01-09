@@ -1,0 +1,17 @@
+package com.study;
+
+public class CounterEx {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}
+
+
+class counter {
+	
+}

@@ -1,0 +1,36 @@
+package com.study;
+
+public class Suup08 {
+	//정수 2개를 받아서 두 개의 합을 출력하고자 한다.
+	
+	static void add (int i1, int i2) {
+		System.out.println(i1 + i2);
+	}
+	
+	static void minus (int i1, int i2) {
+		System.out.println(i1 - i2);
+	}
+	
+	static void gop (int i1, int i2) {
+		System.out.println(i1 * i2);
+	}
+	
+	static void na1 (int i1, int i2) {
+		System.out.println(i1 / i2);
+	}
+	
+	static void na2 (int i1, int i2) {
+		System.out.println(i1 % i2);
+	}
+	public static void main(String[] args) {
+		
+		int a = 10, b = 5;
+		
+		add (a, b);
+		minus (a, b);
+		gop (a, b);
+		na1 (a,b);
+		na2 (a,b);
+	}
+
+}

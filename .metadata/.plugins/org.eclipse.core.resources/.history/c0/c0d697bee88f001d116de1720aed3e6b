@@ -1,0 +1,17 @@
+package com.study;
+/*
+ * 추상 클래스 : abstract 제어자가 붙어 있는 클래스
+ * 			  추상 메소드, (abstract)가 반드시 1개이상 존재해야 한다. 
+ * 				[접근제어자] abstract 리턴타입 메소드명 (){}
+ * 					반드시 상속받는 자식 클래스에서 재정의를 해야한다.
+ */
+public class Suup01 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

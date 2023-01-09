@@ -1,0 +1,19 @@
+package com.study;
+
+public class Suup01 {
+	// 메소드 선언문
+	public static void hello_func() {
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}

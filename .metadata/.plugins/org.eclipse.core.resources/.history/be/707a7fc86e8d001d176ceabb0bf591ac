@@ -1,0 +1,17 @@
+package com.inheritance;
+
+public class InhEx03 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}
+
+
+class Paraent {}
+class Child extends Paraent {}
+class Brother extends Paraent{}

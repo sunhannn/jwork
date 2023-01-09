@@ -1,0 +1,29 @@
+package com.study;
+
+public class CarEx {
+
+	public static void main(String[] args) {
+
+
+		
+	}
+
+}
+
+class Car {
+	
+	String syu;
+	int nen,kyo ;
+	
+	public void setSyu(String syu) {
+		this.syu = syu;
+	}
+	public void setNen(int nen) {
+		this.nen = nen;
+	}
+	public void setKyo(int kyo) {
+	}
+	
+}
+
+

@@ -1,0 +1,21 @@
+package com.study;
+
+public class SwitchPrac01 {
+/*
+ * 	조건문 : switch ~ case 문
+ * 	형식 : switch (조건값) { // 값으로 올 수 있는 자료형 : byte, short, int, char, String
+ * 			  case 값 : 실행문 ; break;
+ * 			  case 값 : 실행문 ; break;
+ * 			(  default : 실행문; break;) 생략가능
+ * 
+ */
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+
+}

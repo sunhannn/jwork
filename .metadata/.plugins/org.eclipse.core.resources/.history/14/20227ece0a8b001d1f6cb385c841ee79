@@ -1,0 +1,47 @@
+package com.study;
+
+public class Suup001 {
+	/*
+	 * 오버로딩의 조건 : 1. 이름이 같아야 한다. 2. 매개 변수의 개수가 달라야 한다. 3. 매개 변수의 개수가 같으면, 자료형이 달라야
+	 * 한다. 4. 매개 변수의 개수가 2개 이상이면 매개변수의 위치가 달라야 한다. 4. ex ) add (int a, String b) add
+	 * (String x, int y)
+	 * 
+	 * this : 내 객체에 있는 것들을 가르킴
+	 * 
+	 */
+
+	// 문 ) Point06으로 객체생성문을 작성하여 x, y의 멤버 변수 값을 각각, 5와 3으로 변경
+	public static void main(String[] args) {
+		// 기타생성자의 사용 이유는 대부분 매개변수를 이용해 멤버 변수를 초기화다.
+		Point06 pt6 = new Point06();
+		pt6.setX(5);
+	
+		pt6.showPoint();
+	}
+
+}
+
+class Point06 {
+	int x;
+	int y;
+
+	public Point06() {
+		System.out.println("매개 변수가 없는 디폴트 생성자");
+		
+	}
+	public Point06(int x, int y) {
+		System.out.println("매개변수가 있는 기타 생성자");
+		this.x = 5;
+		this.y = 3;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+	
+	public void showPoint() {
+		System.out.println(x + " , " + y);
+	}
+}

@@ -1,0 +1,23 @@
+package methodex;
+
+public class Ex07 {
+	static void md() {
+		System.out.println("메소드");
+	}
+    public static void main(String[] args) { //객체생성문
+    	Point01 pt01 = new Point01();
+    	pt01.x = 10;
+    	pt01.y = 20;
+    	System.out.println(pt01.x + ", " + pt01.y);
+    }
+}
+
+class Point01{
+	int x, y;
+	
+	/* 자료형 = 클래스
+	 * 객체 형식
+	 * 선언 : 자료형 객체명;
+	 * 선언 및 공간할당 : 자료형 객체명 = new 생성자(); //클래스명 객체명 = new 클래스명();
+	 * */
+}

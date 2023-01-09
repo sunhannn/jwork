@@ -1,0 +1,19 @@
+package com.study;
+
+public class ReturnEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Return {
+	public void say_nick(String nick) {
+		if ("fool".equals(nick)) {
+			return; // return키워드의 도 다른 스임새, 메소드의 종료 중괄호로 빠져나감.
+
+		}
+		System.out.println("나의 별명은 " + nick + "입니다.");
+	}
+}

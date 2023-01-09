@@ -1,0 +1,22 @@
+package com.study;
+
+public class FruitsEx {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Fruits {
+	//과일 이름, 가격, 원산지
+	String name;
+	int price;
+	String space;
+	
+	public void fmd(String name, int price, String space) {
+		this.name = name;
+		this.price = price;
+		this.space = space;
+	}
+}

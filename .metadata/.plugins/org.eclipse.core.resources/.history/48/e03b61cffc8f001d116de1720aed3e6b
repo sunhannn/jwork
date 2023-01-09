@@ -1,0 +1,20 @@
+package interfaceex;
+
+public class ColorInterEx03 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+class Triangle implements Color{
+	int color = 0;
+	public int getColor() {return color;}
+	public void setColor(int c) {color = c;}
+}

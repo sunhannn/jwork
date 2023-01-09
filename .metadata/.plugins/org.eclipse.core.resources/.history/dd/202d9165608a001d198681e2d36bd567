@@ -1,0 +1,18 @@
+package com.study;
+
+public class Suup08 {
+	//정수 2개를 받아서 두 개의 합을 출력하고자 한다.
+	
+	static void add (int i1, int i2) {
+		System.out.println(i1 + i2);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		add (5, 6);
+		
+		
+	}
+
+}

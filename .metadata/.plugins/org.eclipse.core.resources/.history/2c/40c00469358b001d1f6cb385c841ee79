@@ -1,0 +1,16 @@
+package com.study;
+
+public class suup002 {
+	/*
+	 * this () : 나의 생성자들 중에서 this (매개변수)호풀문을 가지고 있지 않은
+	 * 			   this([매개변수]) 호출문에 해당되는 생성자를 호출할 때 사용
+	 */
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}

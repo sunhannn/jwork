@@ -1,0 +1,16 @@
+package methodex;
+
+public class Ex01 {
+   
+	static void sum(int x, int y) { //메소드 선언문, sum메소드, 아래 main 메소드에서 a,b 인트기때문에 int
+		int c; //변수의 선언
+		c = x + y; //대입초기화
+		System.out.println("x + y = " + c);
+	}
+	
+	public static void main(String[] args) { //메소드 선언문, main 메소드, 자바는 메인메소드만 읽을 수 있음
+		int a = 10, b = 20; //변수의 선언과 초기화
+		sum(a, b); //sum 메소드 호출문, a는 x가 됨 b는 y가 됨
+		sum(4, 5);
+	}
+}

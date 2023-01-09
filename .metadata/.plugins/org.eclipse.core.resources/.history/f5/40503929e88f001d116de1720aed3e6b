@@ -1,0 +1,14 @@
+package com.study;
+/*
+ * 추상 클래스 : abstract 제어자가 붙어 있는 클래스
+ * 			  추상 메소드, (abstract)가 반드시 1개이상 존재해야 한다. 
+ * 
+ */
+public class Suup01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

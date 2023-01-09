@@ -1,0 +1,8 @@
+package methodex;
+
+public class Ex02 {
+	
+	public static void main(String[] args) { //args = argument, parameter : 매개변수
+		
+	}
+}

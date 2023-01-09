@@ -1,0 +1,58 @@
+package com.study;
+import java.util.*;
+public class Practice03 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int mon, year;
+		
+		System.out.println("지금은 몇년 입니까? : ");
+		year = sc.nextInt();
+		
+		System.out.println("지금은 몇월 입니까? : ");
+		mon = sc.nextInt();
+		
+		switch (mon) {
+		case 1:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		case 2: 
+			if (year % 4 == 0) {
+				System.out.println("이번달은 29일입니다.");
+			}else {
+				System.out.println("이번달은 28일입니다.");
+			}
+		case 3:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		case 5:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		case 7:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		case 8:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		case 10:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		case 12:
+			System.out.println("이번달은 31일입니다.");
+			break;
+		
+		
+		
+		
+		}
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

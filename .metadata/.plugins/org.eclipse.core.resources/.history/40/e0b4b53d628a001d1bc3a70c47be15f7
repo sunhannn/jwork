@@ -1,0 +1,16 @@
+package methodex;
+
+public class Ex07 {
+  static void add(int a, int b) {
+	  System.out.println("두 수의 합은 :" +(a+b));
+	  System.out.println("두 수의 차는 :" +(a-b));
+	  System.out.println("두 수의 곱은 :" +(a*b));
+	  System.out.println("두 수의 몫은 :" +(a/b));
+	  System.out.println("두 수의 나누기의 나머지는 :" +(a%b));
+	  
+  }
+  
+  public static void main(String[] args) {
+	  add(3,9);
+  }
+}

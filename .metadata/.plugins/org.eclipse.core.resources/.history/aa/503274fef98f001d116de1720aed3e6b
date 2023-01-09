@@ -1,0 +1,14 @@
+package interfaceex;
+
+public class InterEx02 {
+
+	public static void main(String[] args) {
+		Rectangle ref = null;
+		
+		
+		
+		
+		
+	}
+
+}

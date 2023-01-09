@@ -1,0 +1,16 @@
+package methodex;
+
+public class Ex04 {
+    static void prn(int x, int y, int z) { //prn 메소드 선언
+    	System.out.println(x + "\t"  + y + "\t" + z);
+    }
+    
+    static void prn(int x, int y) {System.out.println(x + "\t" + y);} //prn 메소드 선언
+    static void prn(int x) {System.out.println(x); }//prn 메소드 선언
+    
+    public static void main(String[] args) { //메인 메소드 선언
+    	prn(10, 20, 30);
+    	prn(40, 50);
+    	prn(60);
+    }
+}

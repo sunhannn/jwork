@@ -1,0 +1,30 @@
+package methodex;
+
+public class Ex07 {
+  //정수 2개를 받아서 두 개의 합을 출력하고자 한다.
+	static int add(int i1, int i2) {
+		return i1 + i2;
+	}
+	static int mi(int i1, int i2) {
+		return i1 - i2;
+	}
+	static int xe(int i1, int i2) {
+		return i1 * i2;
+	}
+	static int x(int i1, int i2) {
+		return i1 % i2;
+	}
+	static int xx(int i1, int i2) {
+		return i1 / i2;
+	}
+	
+	
+	public static void main(String[] args) {
+		System.out.println(add(5,9));
+		System.out.println(mi(8,4));
+		System.out.println(xe(3,1));
+		System.out.println(x(2,4));
+		System.out.println(xx(2,4));
+		
+	}
+}

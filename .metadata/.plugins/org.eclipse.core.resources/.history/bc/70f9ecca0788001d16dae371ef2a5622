@@ -1,0 +1,23 @@
+package com.study;
+
+public class Suup006 {
+
+	public static void main(String[] args) {
+		int c = 0;
+		System.out.print(c);
+		int [] c1 = null;
+		System.out.print(c1);
+		int [] c2 = new int [5];
+		System.out.print(c2);
+		for (int i : c2) System.out.print(i + "  ");
+		int [] c3 =  {1,2,3,4,5};
+		System.out.print(c3);
+		for (int i : c3) System.out.print(i +"  ");
+		
+		
+		
+		
+		
+	}
+
+}

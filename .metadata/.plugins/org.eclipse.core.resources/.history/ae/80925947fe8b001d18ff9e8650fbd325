@@ -1,0 +1,27 @@
+package com.study;
+
+/* import 문을 사용하고 있는 패키지안에 있는 클래스와 import 할 패키지 안에 동일한 이름의 클래쓰가
+ * 없는 경우나 만약 동일한 이름의 클래스가 존재할 때 *사용 불가능
+ * 
+ */
+public class MyDateEx {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class MyDate {
+	private int y, m, d;
+	private String str;
+	
+	private void setMyDate(int r) {
+		if (r == 1) str = "유효한 날짜입니다.";
+		else str = "유효하지 않은 날짜입니다.";
+	}
+	
+	
+	
+	
+}

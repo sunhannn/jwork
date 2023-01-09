@@ -1,0 +1,19 @@
+package methodex;
+
+public class Ex07 {
+	static void md() {
+		System.out.println("메소드");
+	}
+    public static void main(String[] args) { //객체생성문
+    	Point01 pt01 = new Point01();
+    	pt01.x = 10;
+    	pt01.y = 20;
+    	System.out.println(pt01.x + ", " + pt01.y);
+    }
+}
+
+class Point01{
+	int x, y;
+	   public Point01(){}     //-> 기본생성자 얘만 있을경우 써도 되고 안써도 됨
+      public Point01(int a){} //기타 생성자가 있기에 위에 기본생성자를 기술 해줘야 함	
+}
