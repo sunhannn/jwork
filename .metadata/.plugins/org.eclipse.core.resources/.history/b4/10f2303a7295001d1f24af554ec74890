@@ -1,0 +1,14 @@
+package javatimeex;
+
+public class ExceptEx03 {
+
+	public static void main(String[] args) {
+		String c = null;
+		System.out.println(" 문자열 값은 : "+c.toString());
+		
+		
+		
+		
+	}
+
+}

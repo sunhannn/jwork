@@ -1,0 +1,36 @@
+package javautilEx;
+
+import java.text.SimpleDateFormat;
+import java.util.*;
+
+public class UtilEx04 {
+
+	public static void main(String[] args) {
+		int nYear;
+		int nMonth;
+		int nDay = 0;
+
+		// 현재날짜 구하기
+		Calendar calendar = new GregorianCalendar();
+		nYear = calendar.get(Calendar.YEAR);
+		nMonth = calendar.get(calendar.MONTH) + 1;
+		nDay = calendar.get(calendar.DAY_OF_MONTH);
+		System.out.println("Gregorian Calendar = " + nYear + "년 " + nMonth + "월 " + nDay + "일 ");
+
+		calendar = new GregorianCalendar(2018, 0, 5);
+		nYear = calendar.get(Calendar.YEAR);
+		nMonth = calendar.get(calendar.MONTH) + 1;
+		nDay = calendar.get(calendar.DAY_OF_MONTH);
+		System.out.println("Gregorian Calendar = " + nYear + "년 " + nMonth + "월 " + nDay + "일 ");
+
+		// date로 구하기
+		SimpleDateFormat fm1 = new SimpleDateFormat("yyyy년 MM월 dd일");
+		String date = fm1.format(new Date());
+		System.out.println("현재시간 년월일 = " + date);
+
+		SimpleDateFormat fm1 = new SimpleDateFormat("yyyy년 MM월 dd일");
+		String date = fm1.format(new Date());
+		System.out.println("현재시간 년월일 = " + date);
+	}
+
+}

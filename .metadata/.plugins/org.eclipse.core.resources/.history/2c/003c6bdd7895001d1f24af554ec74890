@@ -1,0 +1,25 @@
+package exceptex;
+
+public class ExceptEx06 {
+
+	public static void main(String[] args) {
+		
+		try {
+			String c = null;
+//			System.out.println(" 문자열 값은 : "+c.toString());
+
+			try {
+				System.out.println("문자열 값은 : " + c.toString());
+			} catch (Exception e) {
+				System.out.println(">> 예외처리 구문 <<");
+				System.out.println(">>e<<");
+				System.out.println(e);
+				System.out.println(">>e.toString()<<");
+				System.out.println(e.toString());
+				System.out.println(e.getMessage() + ", " + e.getCause());
+		
+	}
+
+}
+}
+}

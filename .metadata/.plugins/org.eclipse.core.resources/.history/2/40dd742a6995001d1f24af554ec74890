@@ -1,0 +1,13 @@
+package javatimeex;
+import java.time.*;
+public class TimeEx02 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+	}
+
+}
