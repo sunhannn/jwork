@@ -1,0 +1,31 @@
+package inheritanceex;
+
+class Person{
+	String name;
+	public Person(String name) {
+		this.name = name;
+	}
+}
+class Student extends Person{
+	String dept;
+	public Student(String name) {
+		super(name);
+	}
+}
+public class CastingTest01 {
+	public static void main(String[] args) {
+		//레퍼런스 student를 이용하면 name ,dept에 접근가능
+		Student student = new Student("Duly");
+		System.out.println(student.name);
+		
+		//student 객체의 멤 중 오직 person 클래스의 멤버만 접근이 가능
+		Person person =student; //주소값을 나타냄
+		person.name ="Cogildong";
+		System.out.println(person.name);
+		
+		//아래 문장은 컴파일 오류
+		//person.dept
+		((Student)person).dept = "Computer Eng";
+	}
+
+}

@@ -1,0 +1,10 @@
+package javalangEx;
+import inheritanceex.VIPCustomer;
+
+public class ClassEx02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

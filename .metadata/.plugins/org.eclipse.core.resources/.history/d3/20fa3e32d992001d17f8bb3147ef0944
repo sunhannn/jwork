@@ -1,0 +1,23 @@
+package innerEx;
+
+import java.util.Scanner;
+
+public class SignalLight {
+
+	public static void main(String[] args) {
+		String car="자동차";
+		String hum="보행자";
+		String stop="종료";
+		String input = null;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("자동차 , 보행자, 종료 중 입력하세요");
+		input = scanner.nextLine();
+		if(input == car)
+ 			System.out.println("오 모르겠다");
+		}else {
+			System.out.println("오 모르겠다");
+		}
+		scanner.close();
+	}
+}

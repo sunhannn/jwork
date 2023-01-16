@@ -1,0 +1,10 @@
+package generic_001_yes;
+
+public class BoxExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

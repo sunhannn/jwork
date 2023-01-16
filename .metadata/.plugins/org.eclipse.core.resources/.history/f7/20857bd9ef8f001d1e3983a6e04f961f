@@ -1,0 +1,25 @@
+package abstractex;
+
+
+
+public class AbstractEx02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+abstract class Shape {
+	public abstract void draw();
+}
+
+class Circle extends Shape {
+
+	@Override
+	public void draw() {
+		System.out.println("원을 그리다");
+	}
+
+}

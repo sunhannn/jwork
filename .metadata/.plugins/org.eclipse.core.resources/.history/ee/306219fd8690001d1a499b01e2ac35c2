@@ -1,0 +1,9 @@
+package interfaceex;
+
+public class TestMain {
+	public static void main(String[] args) {
+		String name = "홍길동";
+		int age = 500;
+	}
+
+}
