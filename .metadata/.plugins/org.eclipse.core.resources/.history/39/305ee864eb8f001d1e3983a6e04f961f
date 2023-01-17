@@ -1,8 +1,0 @@
-package inheritanceex;
-
-public class AbstractEx01 {
-
-	public static void main(String[] args) {
-
-	}
-}
