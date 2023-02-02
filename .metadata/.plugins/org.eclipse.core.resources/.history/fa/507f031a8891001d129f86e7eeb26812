@@ -1,0 +1,8 @@
+package generic_003_method2;
+
+public class CompareMethodExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

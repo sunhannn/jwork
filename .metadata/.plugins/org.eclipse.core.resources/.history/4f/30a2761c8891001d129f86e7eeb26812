@@ -1,0 +1,6 @@
+package generic_003_method2;
+
+public class Pair<K, V> {
+	private K key;
+	private
+}

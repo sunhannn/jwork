@@ -1,0 +1,5 @@
+package collectionex;
+
+public class Test {
+	void md() {System.out.println("test클래스");
+}

@@ -1,0 +1,8 @@
+package generic_002_yes;
+
+public class ProductExample {
+	public static void main(String[] args) {
+
+	}
+
+}
