@@ -14,6 +14,7 @@ public class Aki {
 	String pwd = "1111";
 
 	public Aki(int deptno) {
+		
 		try {
 			Class.forName(driver);
 			con = DriverManager.getConnection(url, user, pwd);
